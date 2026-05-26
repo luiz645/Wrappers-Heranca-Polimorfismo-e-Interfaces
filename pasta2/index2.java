@@ -11,5 +11,12 @@ public class index2 {
 
         System.out.println("escreva o valor de " + v);
         
+        /*
+        Integer aceita null
+        int NÃO aceita null
+        Ao converter Integer para int, o Java faz auto-unboxing
+        Se o Integer estiver null, ocorre NullPointerException
+        */
+        
     }
 }
