@@ -16,7 +16,7 @@ public class index {
 
             BigDecimal taxa = new BigDecimal("0.05");
 
-            // desconto de 5% do valor total
+            
             BigDecimal valorTaxa = valor.multiply(taxa);
 
             BigDecimal total = valor.subtract(valorTaxa);
